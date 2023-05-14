@@ -42,7 +42,7 @@ h4 {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(0);
   text-align: center;
 }
 
@@ -59,12 +59,14 @@ h4 {
   padding: 7px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  width: 80px;
 }
 
 .btn:active {
   transform: translateY(3px);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes show {
